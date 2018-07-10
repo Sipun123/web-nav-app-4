@@ -1,0 +1,28 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+	<context-param>
+		<param-name>x</param-name>
+		<param-value>10</param-value>
+	</context-param>
+
+
+	<context-param>
+		<param-name>y</param-name>
+		<param-value>20</param-value>
+	</context-param>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>OnServletContext</servlet-name>
+		<display-name>OnServletContext</display-name>
+		<description></description>
+		<servlet-class>com.monami.servlet.OnServletContext</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OnServletContext</servlet-name>
+		<url-pattern>/onservletcontext</url-pattern>
+	</servlet-mapping>
+</web-app>
